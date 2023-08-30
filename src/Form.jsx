@@ -34,10 +34,10 @@ const Form = () => {
                 <div class="card-body">
                   <div class="mt-2">
                     <label for="mobile" class="form-label">
-                      Please Enter Your Mobile
+                      Please Enter Your Mobile (Only Numbers Allowed)
                     </label>
                     <input
-                      type="text"
+                      type="number"
                       className={`form-control
                     ${
                       formik.touched.mobile &&
